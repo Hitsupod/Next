@@ -1,24 +1,54 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Layout, Header, Navigation, Content } from "react-mdl";
+import "./App.css";
+import Main from "./components/Main";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      <Layout>
+        <Header
+          title={
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "white",
+              }}
+              to="/"
+            >
+              NEXT
+            </Link>
+          }
+          scroll
         >
-          Learn React
-        </a>
-      </header>
+          <Navigation className="nav">
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "white",
+              }}
+              to="#"
+            >
+              Sign in
+            </Link>
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "white",
+              }}
+              to="#"
+            >
+              Sign up
+            </Link>
+          </Navigation>
+        </Header>
+
+        <Content>
+          <div className="page-content" />
+          <Main></Main>
+        </Content>
+      </Layout>
     </div>
   );
 }
