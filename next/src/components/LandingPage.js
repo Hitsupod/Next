@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPowerOff } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 class LandingPage extends Component {
   render() {
     return (
@@ -15,9 +16,9 @@ class LandingPage extends Component {
         </Row>
         <Row>
           <Col className="power">
-            <Button variant="dark">
+            <Link to="/Questions">
               <FontAwesomeIcon icon={faPowerOff} size="10x" />
-            </Button>
+            </Link>
           </Col>
         </Row>
       </Container>
