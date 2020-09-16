@@ -10,10 +10,10 @@ function App() {
       <Navbar className="justify-content-end" bg="dark" variant="dark">
         <Nav>
           <Link>
-            <h4 className="navbtns">SignIn</h4>
+            <h4 className="navbtns">Sign In</h4>
           </Link>
           <Link>
-            <h4 className="navbtns">SignUp</h4>
+            <h4 className="navbtns">Sign Up</h4>
           </Link>
         </Nav>
         <Navbar.Brand href="/">
