@@ -6,9 +6,8 @@ import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 // import QuizChoices from "../api/QuizChoices";
 // import QuestionOpt from "./QuestionOpt";
 
-
 class Questions extends Component {
-/*  state = {
+  /*  state = {
     questionChoices: []
   };
 
@@ -39,7 +38,7 @@ class Questions extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                What system do you prefer?
+                  What system do you prefer?
                   {/* {this.state.questionChoices.length > 0 && 
                     this.state.questionChoices.map(
                     ({question, answers, id}) => (
@@ -48,7 +47,6 @@ class Questions extends Component {
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
-
                     <ListGroup.Item action href="/OutPut">
                       Xbox
                     </ListGroup.Item>
@@ -57,18 +55,6 @@ class Questions extends Component {
                     </ListGroup.Item>
                     <ListGroup.Item action href="/OutPut">
                       Computer
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="/OutPut">
-                      Mobile(comming soon)
-
-                    <ListGroup.Item action href="#link1">
-                      PlayStation
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="#link2">
-                      XBox
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="#link3">
-                      PC
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Text>
