@@ -25,13 +25,16 @@ class Questions extends Component {
                 <Card.Text className="questions">
                   <ListGroup>
                     <ListGroup.Item action href="/OutPut">
-                      Link 1
+                      Xbox
                     </ListGroup.Item>
                     <ListGroup.Item action href="/OutPut">
-                      Link 2
+                      Playstation
                     </ListGroup.Item>
                     <ListGroup.Item action href="/OutPut">
-                      link3
+                      Computer
+                    </ListGroup.Item>
+                    <ListGroup.Item action href="/OutPut">
+                      Mobile(comming soon)
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Text>
