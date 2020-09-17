@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
+
+//import { Link } from "react-router-dom";
+
 // import QuizChoices from "../api/QuizChoices";
 // import QuestionOpt from "./QuestionOpt";
+
 
 class Questions extends Component {
 /*  state = {
@@ -44,6 +48,19 @@ class Questions extends Component {
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
+
+                    <ListGroup.Item action href="/OutPut">
+                      Xbox
+                    </ListGroup.Item>
+                    <ListGroup.Item action href="/OutPut">
+                      Playstation
+                    </ListGroup.Item>
+                    <ListGroup.Item action href="/OutPut">
+                      Computer
+                    </ListGroup.Item>
+                    <ListGroup.Item action href="/OutPut">
+                      Mobile(comming soon)
+
                     <ListGroup.Item action href="#link1">
                       PlayStation
                     </ListGroup.Item>
@@ -79,6 +96,7 @@ class Questions extends Component {
                     </ListGroup.Item>
                     <ListGroup.Item action href="#link3">
                       link3
+
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Text>
