@@ -35,7 +35,7 @@ class Questions extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                What system do you prefer
+                What system do you prefer?
                   {/* {this.state.questionChoices.length > 0 && 
                     this.state.questionChoices.map(
                     ({question, answers, id}) => (

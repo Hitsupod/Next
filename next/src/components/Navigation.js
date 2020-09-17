@@ -7,17 +7,24 @@ class Navigation extends Component {
         return(
             <div>
                 <Navbar className="justify-content-end" bg="dark" variant="dark">
+                    <Navbar.Brand href="/">
+                        <h2 className="Homebtn">Next</h2>
+                    </Navbar.Brand>
                     <Nav>
+                        <Link>
+                            <h4 className="navbtns">Recommendation</h4>
+                        </Link>
+                        <Link>
+                            <h4 className="navbtns">Saved</h4>
+                        </Link>
                         <Link>
                             <h4 className="navbtns">Sign In</h4>
                         </Link>
                         <Link>
                             <h4 className="navbtns">Sign Up</h4>
                         </Link>
+                        
                     </Nav>
-                    <Navbar.Brand href="/">
-                        <h2 className="navbtns">Next</h2>
-                    </Navbar.Brand>
                 </Navbar>
             </div>
         )
