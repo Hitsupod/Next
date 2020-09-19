@@ -4,8 +4,7 @@ import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 //import { Link } from "react-router-dom";
 
 
-
-class Questions extends Component {
+class NintendoSquadQ3 extends Component {
   render() {
     return (
       <Container fluid className="main">
@@ -19,21 +18,15 @@ class Questions extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                  What system do you prefer?
+                  Solo or Squad?
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
-                    <ListGroup.Item action href="/XboxQ2">
-                      Xbox
+                    <ListGroup.Item action href="/OutPut">
+                      FPS
                     </ListGroup.Item>
-                    <ListGroup.Item action href="/PlaystationQ2">
-                      Playstation
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="/PCQ2">
-                      PC
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="/NintendoQ2">
-                      Nintendo
+                    <ListGroup.Item action href="/OutPut">
+                      RPG
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Text>
@@ -45,4 +38,5 @@ class Questions extends Component {
     );
   }
 }
-export default Questions;
+
+export default NintendoSquadQ3;
