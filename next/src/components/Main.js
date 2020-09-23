@@ -30,7 +30,9 @@ import PCSoloFPSOutPut from "./Outputs/PC/PCSoloFPSOutPut";
 import PCSoloRPGOutPut from "./Outputs/PC/PCSoloRPGOutPut";
 import PCSquadFPSOutPut from "./Outputs/PC/PCSquadFPSOutPut";
 import PCSquadRPGOutPut from "./Outputs/PC/PCSquadRPGOutPut";
-// import OutPut from "./OutPut";
+import Signup from "./Sign-Up";
+import Login from "./login";
+
 
 
 
@@ -39,6 +41,8 @@ const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
     <Route exact path="/Questions" component={Questions} />
+    <Route exact path="/Signup" component={Signup} />
+    <Route exact path="/Login" component={Login} />
     {/* // Playstation Questions  */}
     <Route exact path="/PlaystationQ2" component={PlaystationQ2} />
     <Route exact path="/PlaystationSoloQ3" component={PlaystationSoloQ3} />
@@ -82,6 +86,8 @@ const Main = () => (
     <Route exact path="/xboxSoloRPGOutPut" component={xboxSoloRPGOutPut} />
     <Route exact path="/xboxSquadFPSOutPut" component={xboxSquadFPSOutPut} />
     <Route exact path="/xboxSquadRPGOutPut" component={xboxSquadRPGOutPut} />
+
+
 
   </Switch>
 );

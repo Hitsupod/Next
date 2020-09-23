@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Signup from "./Sign-Up";
+import Login from "./login";
+
 
 class Navigation extends Component {
     render() {
@@ -17,13 +20,9 @@ class Navigation extends Component {
                         <Link>
                             <h4 className="navbtns">Saved</h4>
                         </Link>
-                        <Link>
-                            <h4 className="navbtns">Sign In</h4>
-                        </Link>
-                        <Link>
-                            <h4 className="navbtns">Sign Up</h4>
-                        </Link>
-                        
+                        <Nav.Link href="/Login" className="navbtns">Login</Nav.Link>
+                        <Nav.Link href="/Signup" className="navbtns">Sign Up</Nav.Link>
+                
                     </Nav>
                 </Navbar>
             </div>
