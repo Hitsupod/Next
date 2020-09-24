@@ -4,36 +4,29 @@ import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 //import { Link } from "react-router-dom";
 
 
-
-class Questions extends Component {
+class NintendoSoloQ3 extends Component {
   render() {
     return (
       <Container fluid className="main">
         <Row>
-          <Col md={{ span: 3, offset: 2 }}>
+          <Col md="auto">
             <Card
-              className="questionsCard"
+              className="questions"
               bg="dark"
               text="white"
-              style={{ width: "65rem" }}
+              style={{ width: "18rem" }}
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                  What system do you prefer?
+                  Choose a Genre?
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
-                    <ListGroup.Item action href="/XboxQ2">
-                      Xbox
+                    <ListGroup.Item action href="/NintendoSoloFPSOutPut">
+                      FPS
                     </ListGroup.Item>
-                    <ListGroup.Item action href="/PlaystationQ2">
-                      Playstation
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="/PCQ2">
-                      PC
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="/NintendoQ2">
-                      Nintendo
+                    <ListGroup.Item action href="/NintendoSoloRPGOutPut">
+                      RPG
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Text>
@@ -45,4 +38,5 @@ class Questions extends Component {
     );
   }
 }
-export default Questions;
+
+export default NintendoSoloQ3;
