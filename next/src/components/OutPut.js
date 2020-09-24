@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { List, ListItem } from "../components/List";
 import API from "../utils/API";
 import re2 from "../images/re2.png";
 //import rdr from "../images/rdr2.png";
@@ -7,6 +8,7 @@ import re2 from "../images/re2.png";
 //import witcher from "../images/witcher3.png";
 //import apex from "../images/apex.png";
 import { Link } from "react-router-dom";
+//import Axios from "axios";
 function Games() {
   // Setting our component's initial state
   const [games, setGames] = useState([]);
@@ -21,7 +23,7 @@ function Games() {
       .then((res) => setGames(res.data))
       .catch((err) => console.log(err));
   }
-  console.log(games);
+  //
   return (
     <Container fluid className="main">
       <Row>
@@ -44,17 +46,17 @@ function Games() {
               <Card.Title className="questions"></Card.Title>
               <Card.Text className="questions">
                 {games.length ? (
-                  <ListGroup>
+                  <List>
                     {games.map((game) => (
-                      <ListGroup.Item key={game._id}>
-                        <Link to={"/games/" + game._id}>
+                      <ListItem key={game._id}>
+                        <Link to={"/games" + game._id}>
                           <strong>
-                            {game.title} by {game.author}
+                            {game.title} by {game.author};
                           </strong>
                         </Link>
-                      </ListGroup.Item>
+                      </ListItem>
                     ))}
-                  </ListGroup>
+                  </List>
                 ) : (
                   <h3>No Results to Display</h3>
                 )}
