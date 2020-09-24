@@ -1,8 +1,16 @@
 const router = require("express").Router();
 const gamesController = require("../../controllers/gameControllers");
+let Games = require("../../models/game");
 
 // Matches with "/api/games"
-router.route("/").get(gamesController.findAll).post(gamesController.create);
+router
+  .route("/")
+  .get((req, res) => {
+    Games.fine()
+      .then((games) => res.json(games))
+      .catch((err) => res.status(400).json("error" + err));
+  })
+  .post(gamesController.create);
 
 // Matches with "/api/games/:id"
 router
