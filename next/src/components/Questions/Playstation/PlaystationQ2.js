@@ -24,10 +24,10 @@ class PlaystationQ2 extends Component {
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
-                    <ListGroup.Item action href="/OutPut">
+                    <ListGroup.Item action href="/PlaystationSoloQ3">
                       Solo
                     </ListGroup.Item>
-                    <ListGroup.Item action href="/OutPut">
+                    <ListGroup.Item action href="/PlaystationSquadQ3">
                       Squad
                     </ListGroup.Item>
                   </ListGroup>

@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import re2 from "../images/re2.png";
-import rdr from "../images/rdr2.png";
-import mgs from "../images/mgs.png";
-import witcher from "../images/witcher3.png";
-import apex from "../images/apex.png";
+import Button from 'react-bootstrap/Button'
+import Wolf from "../../../images/wolf.jpg";
 //import { Link } from "react-router-dom";
-class LandingPage extends Component {
+class PCSoloFPSOutPut extends Component {
   render() {
     return (
       <Container fluid className="main">
@@ -26,16 +23,18 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={re2} />
+                <Card.Img variant="top" src={Wolf} />
                 <Card.Title className="questions">
-                  Resident Evil 2(remake)
+                Apex Legends
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  A remake of the classic resident evil 2 with modernised
-                  graphics and new mechanics that is taking the speed running
-                  community by storm.
+                  Metro 2033 Redux is a top-class first-person shooter/survival horror game, a breathless experience.Artyom's desperate, 
+                  haunting voyage through the irradiated remains of Moscow is every bit as engaging today as it was when it first released 
+                  back in 2010, and this Redux version benefits massively from overhauled AI, gameplay mechanics and visuals. 
+                  In terms of first-person shooters or survival horror games on Nintendo's console, this is one of the very best.
                 </Card.Text>
+                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -47,17 +46,17 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={rdr} />
+                <Card.Img variant="top" src={Wolf} />
                 <Card.Title className="questions">
-                  Red Dead Redemption2
+                Call Of Duty
                 </Card.Title>
                 <Card.Text className="questions">
-                  Set in a fictional recreation of the American Old West in
-                  1899, Red Dead Redemption 2 focuses on the life of Arthur
-                  Morgan and his position in the notorious Van der Linde gang.
-                  The game follows the gang's decline as they are pursued by
-                  lawmen, fellow gangs and Pinkerton agents.
+                Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 
+                The lack of a multiplayer mode might grate (although that wasn't present on other consoles either), but with its 
+                brilliantly-written story and intense action, this stands alongside DOOM as a blistering FPS campaign that feels close
+                to 'magical' when played on Switch hardware. B.J.’s war against the Third Reich is one you definitely won't want to miss.
                 </Card.Text>
+                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -70,8 +69,8 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={witcher} />
-                <Card.Title className="questions">The Witcher3</Card.Title>
+                <Card.Img variant="top" src={Wolf} />
+                <Card.Title className="questions">Borderlands 3</Card.Title>
                 <Card.Text className="questions">
                   The Witcher® 3: Wild Hunt is a story-driven, next-generation
                   open world role-playing game, set in a visually stunning
@@ -79,46 +78,7 @@ class LandingPage extends Component {
                   consequences. You play as Geralt of Rivia, a monster hunter
                   tasked with finding a child from an ancient prophecy.
                 </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="auto">
-            <Card
-              className="questions"
-              bg="dark"
-              text="white"
-              style={{ width: "18rem" }}
-            >
-              <Card.Body>
-                <Card.Img variant="top" src={mgs} />
-                <Card.Title className="questions">
-                  Metal Gear Solid 5: The Phantom Pain
-                </Card.Title>
-                <Card.Text className="questions">
-                  Gameplay. Metal Gear Solid V: The Phantom Pain is a stealth
-                  game in which players take the role of Punished "Venom" Snake
-                  from a third-person perspective in an open world.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="auto">
-            <Card
-              className="questions"
-              bg="dark"
-              text="white"
-              style={{ width: "18rem" }}
-            >
-              <Card.Body>
-                <Card.Img variant="top" src={apex} />
-                <Card.Title className="questions">Apex Legends</Card.Title>
-                <Card.Text className="questions">
-                  Apex Legends is an online multiplayer battle royale game
-                  featuring squads of three players using pre-made characters
-                  (called "Legends"), similar to those of hero shooters.
-                  Alternate modes have been introduced allowing for single and
-                  for two-player squads since the game's release.
-                </Card.Text>
+                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -127,4 +87,4 @@ class LandingPage extends Component {
     );
   }
 }
-export default LandingPage;
+export default PCSoloFPSOutPut;

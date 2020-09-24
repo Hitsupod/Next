@@ -20,14 +20,14 @@ class PCSquadQ3 extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                  Solo or Squad?
+                Choose a Genre?
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
-                    <ListGroup.Item action href="/OutPut">
+                    <ListGroup.Item action href="/PCSquadFPSOutPut">
                       FPS
                     </ListGroup.Item>
-                    <ListGroup.Item action href="/OutPut">
+                    <ListGroup.Item action href="/PCSquadRPGOutPut">
                       RPG
                     </ListGroup.Item>
                   </ListGroup>

@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import re2 from "../images/re2.png";
-import rdr from "../images/rdr2.png";
-import mgs from "../images/mgs.png";
-import witcher from "../images/witcher3.png";
-import apex from "../images/apex.png";
+import Button from 'react-bootstrap/Button'
+import MHW from "../../../images/MHW.jpg";
+import WOW from "../../../images/wow.jpg";
+import Mine from "../../../images/minecraft.jpg";
 //import { Link } from "react-router-dom";
-class LandingPage extends Component {
+class PCSquadRPGOutPut extends Component {
   render() {
     return (
       <Container fluid className="main">
@@ -26,16 +25,18 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={re2} />
+                <Card.Img variant="top" src={MHW} />
                 <Card.Title className="questions">
-                  Resident Evil 2(remake)
+                Monster Hunter World
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  A remake of the classic resident evil 2 with modernised
-                  graphics and new mechanics that is taking the speed running
-                  community by storm.
+                  Welcome to a new world! Take on the role of a hunter and slay ferocious monsters in a living, 
+                  breathing ecosystem where you can use the landscape and its diverse inhabitants to get the upper hand. 
+                  Hunt alone or in co-op with up to three other players, and use materials collected from fallen foes to 
+                  craft new gear and take on even bigger, badder beasts!
                 </Card.Text>
+                <Button href="https://store.steampowered.com/app/582010/Monster_Hunter_World/">Steam</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -47,17 +48,16 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={rdr} />
+                <Card.Img variant="top" src={WOW} />
                 <Card.Title className="questions">
-                  Red Dead Redemption2
+                World of Warcraft
                 </Card.Title>
                 <Card.Text className="questions">
-                  Set in a fictional recreation of the American Old West in
-                  1899, Red Dead Redemption 2 focuses on the life of Arthur
-                  Morgan and his position in the notorious Van der Linde gang.
-                  The game follows the gang's decline as they are pursued by
-                  lawmen, fellow gangs and Pinkerton agents.
+                World of Warcraft (WoW) is a massively multiplayer online role-playing game 
+                (MMORPG) released in 2004 by Blizzard Entertainment. 
+                It is the fourth released game set in the Warcraft fantasy universe.
                 </Card.Text>
+                <Button href="https://worldofwarcraft.com/en-us/">Download</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -70,55 +70,17 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={witcher} />
-                <Card.Title className="questions">The Witcher3</Card.Title>
+                <Card.Img variant="top" src={Mine} />
+                <Card.Title className="questions">Minecraft</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                In Minecraft, players explore a blocky, procedurally-generated 3D world with infinite terrain, and may discover
+                 and extract raw materials, craft tools and items, and build structures or earthworks. Depending on game mode, 
+                 players can fight computer-controlled "mobs", as well as cooperate with or compete against other players in the 
+                 same world. Game modes include a survival mode, in which players must acquire resources to build the world and 
+                 maintain health, and a creative mode, where players have unlimited resources. Players can modify the game to create 
+                 new gameplay mechanics, items, and assets. 
                 </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="auto">
-            <Card
-              className="questions"
-              bg="dark"
-              text="white"
-              style={{ width: "18rem" }}
-            >
-              <Card.Body>
-                <Card.Img variant="top" src={mgs} />
-                <Card.Title className="questions">
-                  Metal Gear Solid 5: The Phantom Pain
-                </Card.Title>
-                <Card.Text className="questions">
-                  Gameplay. Metal Gear Solid V: The Phantom Pain is a stealth
-                  game in which players take the role of Punished "Venom" Snake
-                  from a third-person perspective in an open world.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="auto">
-            <Card
-              className="questions"
-              bg="dark"
-              text="white"
-              style={{ width: "18rem" }}
-            >
-              <Card.Body>
-                <Card.Img variant="top" src={apex} />
-                <Card.Title className="questions">Apex Legends</Card.Title>
-                <Card.Text className="questions">
-                  Apex Legends is an online multiplayer battle royale game
-                  featuring squads of three players using pre-made characters
-                  (called "Legends"), similar to those of hero shooters.
-                  Alternate modes have been introduced allowing for single and
-                  for two-player squads since the game's release.
-                </Card.Text>
+                <Button href="https://www.minecraft.net/en-us">Download</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -127,4 +89,4 @@ class LandingPage extends Component {
     );
   }
 }
-export default LandingPage;
+export default PCSquadRPGOutPut;

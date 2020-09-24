@@ -18,14 +18,14 @@ class NintendoSoloQ3 extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                  Solo or Squad?
+                  Choose a Genre?
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>
-                    <ListGroup.Item action href="/OutPut">
+                    <ListGroup.Item action href="/NintendoSoloFPSOutPut">
                       FPS
                     </ListGroup.Item>
-                    <ListGroup.Item action href="/OutPut">
+                    <ListGroup.Item action href="/NintendoSoloRPGOutPut">
                       RPG
                     </ListGroup.Item>
                   </ListGroup>

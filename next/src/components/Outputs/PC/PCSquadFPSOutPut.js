@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import re2 from "../images/re2.png";
-import rdr from "../images/rdr2.png";
-import mgs from "../images/mgs.png";
-import witcher from "../images/witcher3.png";
-import apex from "../images/apex.png";
+import Button from 'react-bootstrap/Button';
+import Destiny from "../../../images/destiny.jpg";
+import Valorant from "../../../images/Valorant.png";
+import Division from "../../../images/division.jpg";
 //import { Link } from "react-router-dom";
-class LandingPage extends Component {
+class PCSquadFPSOutPut extends Component {
   render() {
     return (
       <Container fluid className="main">
@@ -26,16 +25,18 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={re2} />
+                <Card.Img variant="top" src={Destiny} />
                 <Card.Title className="questions">
-                  Resident Evil 2(remake)
+                Destiny
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  A remake of the classic resident evil 2 with modernised
-                  graphics and new mechanics that is taking the speed running
-                  community by storm.
+                  Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive 
+                  first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your 
+                  Guardian's look and playstyle. Enjoy Destiny 2’s cinematic story, challenging co-op missions, and a variety 
+                  of PvP modes alone or with friends. Download for free today and write your legend in the stars.
                 </Card.Text>
+                <Button href="https://store.steampowered.com/app/1085660/Destiny_2/">Steam</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -47,17 +48,16 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={rdr} />
+                <Card.Img variant="top" src={Valorant} />
                 <Card.Title className="questions">
-                  Red Dead Redemption2
+                Valorant
                 </Card.Title>
                 <Card.Text className="questions">
-                  Set in a fictional recreation of the American Old West in
-                  1899, Red Dead Redemption 2 focuses on the life of Arthur
-                  Morgan and his position in the notorious Van der Linde gang.
-                  The game follows the gang's decline as they are pursued by
-                  lawmen, fellow gangs and Pinkerton agents.
+                VALORANT is your global competitive stage. It’s a 5v5 tac-shooter matchup to plant or defuse the 
+                Spike in a one-life-per-round, first to 13 series. More than guns and bullets, you’ll choose an Agent 
+                armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine.
                 </Card.Text>
+                <Button href="https://playvalorant.com/en-us/">Download</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -70,55 +70,14 @@ class LandingPage extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={witcher} />
-                <Card.Title className="questions">The Witcher3</Card.Title>
+                <Card.Img variant="top" src={Division} />
+                <Card.Title className="questions">The Division 2</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                Tom Clancy's The Division 2 is a shooter RPG with campaign, co-op, and PvP modes that offers more variety 
+                in missions and challenges, new progression systems with unique twists and surprises, and fresh innovations 
+                that offer new ways to play.
                 </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="auto">
-            <Card
-              className="questions"
-              bg="dark"
-              text="white"
-              style={{ width: "18rem" }}
-            >
-              <Card.Body>
-                <Card.Img variant="top" src={mgs} />
-                <Card.Title className="questions">
-                  Metal Gear Solid 5: The Phantom Pain
-                </Card.Title>
-                <Card.Text className="questions">
-                  Gameplay. Metal Gear Solid V: The Phantom Pain is a stealth
-                  game in which players take the role of Punished "Venom" Snake
-                  from a third-person perspective in an open world.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="auto">
-            <Card
-              className="questions"
-              bg="dark"
-              text="white"
-              style={{ width: "18rem" }}
-            >
-              <Card.Body>
-                <Card.Img variant="top" src={apex} />
-                <Card.Title className="questions">Apex Legends</Card.Title>
-                <Card.Text className="questions">
-                  Apex Legends is an online multiplayer battle royale game
-                  featuring squads of three players using pre-made characters
-                  (called "Legends"), similar to those of hero shooters.
-                  Alternate modes have been introduced allowing for single and
-                  for two-player squads since the game's release.
-                </Card.Text>
+                <Button href="https://store.ubi.com/us/tom-clancys-the-division-2/5b06a3994e0165fa45ffdcdf.html?lang=en_US">Ubisoft</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -127,4 +86,4 @@ class LandingPage extends Component {
     );
   }
 }
-export default LandingPage;
+export default PCSquadFPSOutPut;
