@@ -1,5 +1,5 @@
-const User = require('../database/models/user')
-const passport = require('../passport')
+const User = require('../Server/database/models/user')
+const passport = require('../Server/passport')
 const express = require('express')
 const router = express.Router()
 

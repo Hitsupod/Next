@@ -15,15 +15,10 @@ class Navigation extends Component {
                         <h2 className="Homebtn">Next</h2>
                     </Navbar.Brand>
                     <Nav>
-                        <Link>
-                            <h4 className="navbtns">Recommendation</h4>
-                        </Link>
-                        <Link>
-                            <h4 className="navbtns">Saved</h4>
-                        </Link>
+                        <Nav.Link href="/Recommendation" className="navbtns">Recommendation</Nav.Link>
+                        <Nav.Link href="/Saved" className="navbtns">Saved</Nav.Link>
                         <Nav.Link href="/Login" className="navbtns">Login</Nav.Link>
                         <Nav.Link href="/Signup" className="navbtns">Sign Up</Nav.Link>
-                
                     </Nav>
                 </Navbar>
             </div>
