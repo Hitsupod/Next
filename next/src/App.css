@@ -1,7 +1,6 @@
 .main {
-  background-color: #5c5d5f;
   text-align: center;
-  position: fixed;
+  position: relative;
   top: 100;
   left: 0;
   width: 100%;
@@ -10,7 +9,6 @@
 .Homebtn {
   color: #24990fbb;
   text-shadow: 5px 5px 10px black;
-  margin-right: 700px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -37,4 +35,10 @@
 
 .output {
   padding-left: 250px;
+}
+.Container {
+  display: flex; /* or inline-flex */
+}
+.body {
+  background-color: #5c5d5f;
 }

@@ -6,22 +6,24 @@ import { Link } from "react-router-dom";
 class LandingPage extends Component {
   render() {
     return (
-      <Container fluid className="main">
-        <Row>
-          <Col>
-            <h3 className="welcome">
-              Welcome to NEXT press the button to start
-            </h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="power">
-            <Link to="/Questions">
-              <FontAwesomeIcon icon={faPowerOff} size="10x" />
-            </Link>
-          </Col>
-        </Row>
-      </Container>
+      <div>
+        <Container fluid className="main">
+          <Row>
+            <Col>
+              <h3 className="welcome">
+                Welcome to NEXT press the button to start
+              </h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="power">
+              <Link to="/Questions">
+                <FontAwesomeIcon icon={faPowerOff} size="10x" />
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     );
   }
 }

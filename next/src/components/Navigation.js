@@ -6,6 +6,7 @@ import Login from "./login";
 
 
 class Navigation extends Component {
+
     render() {
         return(
             <div>
@@ -28,7 +29,6 @@ class Navigation extends Component {
             </div>
         )
     }
-
 }
 
 export default Navigation;
