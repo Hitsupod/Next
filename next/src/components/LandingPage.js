@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPowerOff } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+
 class LandingPage extends Component {
   render() {
     return (
