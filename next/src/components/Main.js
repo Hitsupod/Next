@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import Questions from "./Questions";
+import Recomendation from "./Recommendation";
 import PlaystationQ2 from "./Questions/Playstation/PlaystationQ2";
 import PlaystationSoloQ3 from "./Questions/Playstation/PlaystationSoloQ3";
 import PlaystationSquadQ3 from "./Questions/Playstation/PlaystationSquadQ3";
@@ -41,6 +42,7 @@ const Main = () => (
     <Route exact path="/Signup" component={Signup} />
     <Route exact path="/Login" component={Login} />
     <Route exact path="/Saved" component={Saved} />
+    <Route exact path="/Recommendation" component={Recomendation} />
     {/* // Playstation Questions  */}
     <Route exact path="/PlaystationQ2" component={PlaystationQ2} />
     <Route exact path="/PlaystationSoloQ3" component={PlaystationSoloQ3} />
@@ -116,12 +118,8 @@ const Main = () => (
     <Route exact path="/xboxSoloRPGOutPut" component={xboxSoloRPGOutPut} />
     <Route exact path="/xboxSquadFPSOutPut" component={xboxSquadFPSOutPut} />
     <Route exact path="/xboxSquadRPGOutPut" component={xboxSquadRPGOutPut} />
-
-    <Route exact path={["/output", "/games/"]}>
-      <OutPut />
-    </Route>
-    <Route exact path="/Results" component={Results} />
   </Switch>
 );
 export default Main;
 //component={OutPut}
+//<Route exact path="/Results" component={Results} />

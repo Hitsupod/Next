@@ -32,6 +32,11 @@
   margin-top: 50px;
   border-radius: 20px;
 }
+.recomendations {
+  text-shadow: 2px 2px 10px #00ff00;
+  margin-top: 10px;
+  border-radius: 20px;
+}
 
 .output {
   padding-left: 250px;

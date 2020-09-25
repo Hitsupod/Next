@@ -3,18 +3,17 @@ import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 
 //import { Link } from "react-router-dom";
 
-
 class XboxQ2 extends Component {
   render() {
     return (
       <Container fluid className="main">
         <Row>
-          <Col md="auto">
+          <Col md={{ span: 3, offset: 2 }}>
             <Card
               className="questions"
               bg="dark"
               text="white"
-              style={{ width: "18rem" }}
+              style={{ width: "65rem" }}
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
