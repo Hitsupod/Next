@@ -6,7 +6,7 @@ let Games = require("../../models/game");
 router
   .route("/")
   .get((req, res) => {
-    Games.fine()
+    Games.find()
       .then((games) => res.json(games))
       .catch((err) => res.status(400).json("error" + err));
   })
