@@ -34,14 +34,17 @@ import PCSquadRPGOutPut from "./Outputs/PC/PCSquadRPGOutPut";
 import Signup from "./Sign-Up";
 import Login from "./login";
 import Saved from "./Saved";
-
+//<Route exact path="/Saved" component={Saved} />
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
     <Route exact path="/Questions" component={Questions} />
     <Route exact path="/Signup" component={Signup} />
     <Route exact path="/Login" component={Login} />
-    <Route exact path="/Saved" component={Saved} />
+
+    <Route exact path={["Saved", "/games"]}>
+      <Saved />
+    </Route>
     <Route exact path="/Recommendation" component={Recomendation} />
     {/* // Playstation Questions  */}
     <Route exact path="/PlaystationQ2" component={PlaystationQ2} />

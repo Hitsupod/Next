@@ -1,6 +1,6 @@
 # Next
 
-An app to help decide your next video game to play. 
+An app to help decide your next video game to play.
 
 ## Getting Started
 
@@ -14,16 +14,15 @@ Add additional notes about how to deploy this on a live system
 
 M - Mongodb
 E - Express
-A - Angular
+r - React
 N - Nodejs
 
 ## Contributing
 
-
 ## Authors
 
 Reggie Littleton
-Michael Jaeschke 
+Michael Jaeschke
 
 ## License
 
@@ -31,7 +30,6 @@ This project is licensed under Hitsupod
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
