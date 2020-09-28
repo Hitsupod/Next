@@ -42,7 +42,7 @@ const Main = () => (
     <Route exact path="/Signup" component={Signup} />
     <Route exact path="/Login" component={Login} />
 
-    <Route exact path={["Saved", "/games"]}>
+    <Route exact path={["/Saved", "/games/"]}>
       <Saved />
     </Route>
     <Route exact path="/Recommendation" component={Recomendation} />
