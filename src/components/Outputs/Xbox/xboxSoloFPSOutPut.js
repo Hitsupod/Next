@@ -25,7 +25,7 @@ class xboxSoloFPSOutPut extends Component {
               <Card.Body>
                 <Card.Img variant="top" src={Wolf} />
                 <Card.Title className="questions">
-                Metro 2033 Redux
+                Halo Infinite
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}

@@ -27,7 +27,7 @@ class PCSquadFPSOutPut extends Component {
               <Card.Body>
                 <Card.Img variant="top" src={Destiny} />
                 <Card.Title className="questions">
-                Destiny
+                Destiny 2
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}

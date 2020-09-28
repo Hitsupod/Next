@@ -25,7 +25,7 @@ class xboxSquadFPSOutPut extends Component {
               <Card.Body>
                 <Card.Img variant="top" src={Wolf} />
                 <Card.Title className="questions">
-                Metro 2033 Redux
+                Titanfall 2
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
@@ -48,7 +48,7 @@ class xboxSquadFPSOutPut extends Component {
               <Card.Body>
                 <Card.Img variant="top" src={Wolf} />
                 <Card.Title className="questions">
-                Wolfenstein II: The New Colossus
+                Call of Duty: Black Ops
                 </Card.Title>
                 <Card.Text className="questions">
                 Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 

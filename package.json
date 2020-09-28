@@ -2,6 +2,7 @@
   "name": "next",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -56,6 +57,5 @@
   "devDependencies": {
     "concurrently": "^3.6.1",
     "nodemon": "^1.17.5"
-  },
-  "proxy": "http://localhost:3000"
+  }
 }

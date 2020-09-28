@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from 'react-bootstrap/Button'
-import Wolf from "../../../images/wolf.jpg";
+import Ghost from "../../../images/Ghost_of_Tsushima.jpg";
+import Spider from "../../../images/Spiderman.jpg";
+import Death from "../../../images/death.png";
 //import { Link } from "react-router-dom";
 class PlayStationSoloRPGOutPut extends Component {
   render() {
@@ -23,18 +25,19 @@ class PlayStationSoloRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={Ghost} />
                 <Card.Title className="questions">
                 Ghost of Tsushima
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  Metro 2033 Redux is a top-class first-person shooter/survival horror game, a breathless experience.Artyom's desperate, 
-                  haunting voyage through the irradiated remains of Moscow is every bit as engaging today as it was when it first released 
-                  back in 2010, and this Redux version benefits massively from overhauled AI, gameplay mechanics and visuals. 
-                  In terms of first-person shooters or survival horror games on Nintendo's console, this is one of the very best.
+                  Ghost of Tsushima is an action-adventure stealth game played from a third-person 
+                  perspective. Featuring a large open world, there are no waypoints and can be explored 
+                  without guidance. Players can travel to different parts of the world on horseback. 
+                  An item that acts as a grappling hook is available to access difficult to reach areas. 
+                  The game features side quests and non-playable characters with which the player can interact.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.amazon.com/Ghost-Tsushima-PlayStation-4/dp/B08BSKT43L/ref=sr_1_1?dchild=1&keywords=Ghost+of+Tsushima+ps4&qid=1601228851&sr=8-1">Amazon</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -46,17 +49,20 @@ class PlayStationSoloRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={Spider} />
                 <Card.Title className="questions">
                 Spider-Man
                 </Card.Title>
                 <Card.Text className="questions">
-                Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 
-                The lack of a multiplayer mode might grate (although that wasn't present on other consoles either), but with its 
-                brilliantly-written story and intense action, this stands alongside DOOM as a blistering FPS campaign that feels close
-                to 'magical' when played on Switch hardware. B.J.’s war against the Third Reich is one you definitely won't want to miss.
+                Marvel's Spider-Man is a 2018 action-adventure game developed by Insomniac Games 
+                and published by Sony Interactive Entertainment. Based on the Marvel Comics superhero 
+                Spider-Man, it is inspired by the long-running comic book mythology and adaptations in 
+                other media. In the main storyline, the super-human crime lord Mister Negative 
+                orchestrates a plot to seize control of New York City's criminal underworld. When 
+                Mister Negative threatens to release a deadly virus, Spider-Man must confront him and 
+                protect the city while dealing with the personal problems of his civilian persona, Peter Parker. 
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.amazon.com/Marvels-Spider-Man-Playstation-4-PS4/dp/B07DLWRKVM/ref=sr_1_3?dchild=1&keywords=spiderman+ps4&qid=1601228690&sr=8-3">Amazon</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -69,16 +75,14 @@ class PlayStationSoloRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
-                <Card.Title className="questions">The Witcher3</Card.Title>
+                <Card.Img variant="top" src={Death} />
+                <Card.Title className="questions">Death Stranding</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                The game is set in the United States following a cataclysmic event which caused destructive creatures to begin 
+                roaming the Earth. Players control Sam Porter Bridges (Norman Reedus), a courier tasked with delivering supplies 
+                to isolated colonies and reconnecting them via a wireless communications network.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.amazon.com/Death-Stranding-PS4-PlayStation-4/dp/B01H1OOU8K/ref=sr_1_2?crid=15HUF61ZC8EFB&dchild=1&keywords=death+stranding+ps4&qid=1601251621&s=videogames&sprefix=death%2Cvideogames%2C218&sr=1-2">Amazon</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>

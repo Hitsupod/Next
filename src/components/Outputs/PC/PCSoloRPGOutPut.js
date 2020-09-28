@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from 'react-bootstrap/Button'
-import Wolf from "../../../images/wolf.jpg";
+import Cyber from "../../../images/cyber.jpg";
+import DarkSouls from "../../../images/Darksouls.jpg";
+import Outer from "../../../images/outer.jpg";
 //import { Link } from "react-router-dom";
 class PCSoloRPGOutPut extends Component {
   render() {
@@ -23,18 +25,21 @@ class PCSoloRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={Cyber} />
                 <Card.Title className="questions">
                 Cyberpunk 2077
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  Metro 2033 Redux is a top-class first-person shooter/survival horror game, a breathless experience.Artyom's desperate, 
-                  haunting voyage through the irradiated remains of Moscow is every bit as engaging today as it was when it first released 
-                  back in 2010, and this Redux version benefits massively from overhauled AI, gameplay mechanics and visuals. 
-                  In terms of first-person shooters or survival horror games on Nintendo's console, this is one of the very best.
+                  Cyberpunk 2077 is an upcoming role-playing video game developed and published by 
+                  CD Projekt. It is scheduled to be released for PlayStation 4, Windows, and Xbox One 
+                  in November 2020, Stadia by the end of the year, and PlayStation 5 and Xbox Series 
+                  X/S in 2021. Adapted from the Cyberpunk franchise, the story takes place in dystopian 
+                  Night City, an open world with six distinct regions. Players assume the first-person 
+                  perspective of a customisable mercenary known as V, who can acquire skills in hacking 
+                  and machinery, an arsenal of ranged weapons, and options for melee combat. 
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.cyberpunk.net/us/en/">Pre Order</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -46,17 +51,18 @@ class PCSoloRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={DarkSouls} />
                 <Card.Title className="questions">
                 Dark Souls
                 </Card.Title>
                 <Card.Text className="questions">
-                Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 
-                The lack of a multiplayer mode might grate (although that wasn't present on other consoles either), but with its 
-                brilliantly-written story and intense action, this stands alongside DOOM as a blistering FPS campaign that feels close
-                to 'magical' when played on Switch hardware. B.J.’s war against the Third Reich is one you definitely won't want to miss.
+                Dark Souls is a 2011 action role-playing game developed by FromSoftware and published 
+                by Namco Bandai Games. A spiritual successor to FromSoftware's Demon's Souls, the game 
+                is the second instalment in the Souls series. Dark Souls takes place in the fictional 
+                kingdom of Lordran, where players assume the role of a cursed undead character who 
+                begins a pilgrimage to discover the fate of their kind.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/">Steam</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -69,16 +75,17 @@ class PCSoloRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={Outer} />
                 <Card.Title className="questions">The Outer Worlds</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                Lost in transit while on a colonist ship bound for the furthest edge of the galaxy,
+                you awake decades later than you expected only to find yourself in the midst of a deep 
+                conspiracy threatening to destroy the Halcyon colony. As you explore the furthest 
+                reaches of space and encounter a host of factions all vying for power, who you decide 
+                to become will determine the fate of everyone in Halcyon. In the corporate equation 
+                for the colony, you are the unplanned variable.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://outerworlds.obsidian.net/en">Download</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>

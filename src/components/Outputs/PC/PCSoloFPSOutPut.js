@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from 'react-bootstrap/Button'
-import Wolf from "../../../images/wolf.jpg";
+import Apex from "../../../images/apex.png";
+import COD from "../../../images/cod.png";
+import B3 from "../../../images/B3.jpg";
 //import { Link } from "react-router-dom";
 class PCSoloFPSOutPut extends Component {
   render() {
@@ -23,18 +25,16 @@ class PCSoloFPSOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={Apex} />
                 <Card.Title className="questions">
                 Apex Legends
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  Metro 2033 Redux is a top-class first-person shooter/survival horror game, a breathless experience.Artyom's desperate, 
-                  haunting voyage through the irradiated remains of Moscow is every bit as engaging today as it was when it first released 
-                  back in 2010, and this Redux version benefits massively from overhauled AI, gameplay mechanics and visuals. 
-                  In terms of first-person shooters or survival horror games on Nintendo's console, this is one of the very best.
+                  Apex Legends is a free-to-play Battle Royale game where legendary competitors 
+                  battle for glory, fame, and fortune on the fringes of the Frontier.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.ea.com/games/apex-legends">Download</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -46,17 +46,16 @@ class PCSoloFPSOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={COD} />
                 <Card.Title className="questions">
                 Call Of Duty
                 </Card.Title>
                 <Card.Text className="questions">
-                Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 
-                The lack of a multiplayer mode might grate (although that wasn't present on other consoles either), but with its 
-                brilliantly-written story and intense action, this stands alongside DOOM as a blistering FPS campaign that feels close
-                to 'magical' when played on Switch hardware. B.J.’s war against the Third Reich is one you definitely won't want to miss.
+                Call of Duty: Modern Warfare is a 2019 first-person shooter video game developed by 
+                Infinity Ward and published by Activision. Serving as the sixteenth overall installment in the 
+                Call of Duty series, as well as a reboot of the Modern Warfare sub-series.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.callofduty.com/modernwarfare/pc">Download</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -69,16 +68,17 @@ class PCSoloFPSOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={B3} />
                 <Card.Title className="questions">Borderlands 3</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                Borderlands 3 is an action role-playing first-person shooter video game developed by Gearbox Software and published by 2K Games. 
+                It is a sequel to 2012's Borderlands 2, and the fourth entry in the main Borderlands series. Players complete quests and side missions, 
+                in single-player or multiplayer, as one of four classes. When killed, enemies may drop weapons and gear which can be equipped. 
+                New abilities are unlocked as the player gains experience. The plot is centered on four new Vault Hunters recruited by the 
+                Crimson Raiders of Pandora to stop twins Troy and Tyreen Calypso and their insane cult followers from harnessing the power of 
+                the alien Vaults spread across the galaxy. 
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://store.steampowered.com/app/397540/Borderlands_3/">Steam</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>

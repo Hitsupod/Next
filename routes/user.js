@@ -4,7 +4,7 @@ const express = require('express')
 const router = express.Router()
 
 
-router.post('/', (req, res) => {
+router.post('/Signup', (req, res) => {
     const { username, password } = req.body
     User.findOne({ username: username }, (err, user) => {
         if (err) {

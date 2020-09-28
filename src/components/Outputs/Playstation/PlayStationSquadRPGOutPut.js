@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from 'react-bootstrap/Button'
-import Wolf from "../../../images/wolf.jpg";
+import Fall from "../../../images/fallguys.png";
+import Marvel from "../../../images/Marvel.png";
+import GTA from "../../../images/gta.png";
 //import { Link } from "react-router-dom";
 class PlayStationSquadRPGOutPut extends Component {
   render() {
@@ -23,18 +25,16 @@ class PlayStationSquadRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={Marvel} />
                 <Card.Title className="questions">
                 Marvel 
                 </Card.Title>
                 <Card.Text className="questions">
                   {" "}
-                  Metro 2033 Redux is a top-class first-person shooter/survival horror game, a breathless experience.Artyom's desperate, 
-                  haunting voyage through the irradiated remains of Moscow is every bit as engaging today as it was when it first released 
-                  back in 2010, and this Redux version benefits massively from overhauled AI, gameplay mechanics and visuals. 
-                  In terms of first-person shooters or survival horror games on Nintendo's console, this is one of the very best.
+                  Marvel’s Avengers is an epic, third-person, action-adventure game that combines an original, 
+                  cinematic story with single-player and co-operative gameplay.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.playstation.com/en-us/games/marvels-avengers-ps4/">Playstation Store</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -46,17 +46,19 @@ class PlayStationSquadRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
+                <Card.Img variant="top" src={GTA} />
                 <Card.Title className="questions">
-                Wolfenstein II: The New Colossus
+                Grand Theft Auto Online 
                 </Card.Title>
                 <Card.Text className="questions">
-                Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 
-                The lack of a multiplayer mode might grate (although that wasn't present on other consoles either), but with its 
-                brilliantly-written story and intense action, this stands alongside DOOM as a blistering FPS campaign that feels close
-                to 'magical' when played on Switch hardware. B.J.’s war against the Third Reich is one you definitely won't want to miss.
+                Grand Theft Auto V also comes with Grand Theft Auto Online, the dynamic and ever-evolving 
+                online universe for up to 30 players, and includes all existing gameplay upgrades and content 
+                released since the launch of Grand Theft Auto Online. Rise through the ranks to become a CEO 
+                of your own criminal empire by trading contraband or form a Motorcycle Club and rule the streets. 
+                Pull off daring co-operative Heists, enter adrenaline-fueled Stunt Races, compete in unique Adversary 
+                Modes or create your own content to play and share with the entire GTA community. 
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://store.playstation.com/en-us/product/UP1004-CUSA00419_00-GTAVDIGITALDOWNL">Playstation Store</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -69,16 +71,13 @@ class PlayStationSquadRPGOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
-                <Card.Title className="questions">The Witcher3</Card.Title>
+                <Card.Img variant="top" src={Fall} />
+                <Card.Title className="questions">Fall Guys</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                Fall Guys is a massively multiplayer party game with up to 60 players online in a free-for-all 
+                struggle through round after round of escalating chaos until one victor remains!
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.playstation.com/en-us/games/fall-guys-ultimate-knockout-ps4/">Playstation Store</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
