@@ -9,12 +9,12 @@ class XboxSquadQ3 extends Component {
     return (
       <Container fluid className="main">
         <Row>
-          <Col md="auto">
+          <Col md={{ span: 3, offset: 2 }}>
             <Card
               className="questions"
               bg="dark"
               text="white"
-              style={{ width: "18rem" }}
+              style={{ width: "65rem" }}
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">

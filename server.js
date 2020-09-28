@@ -1,4 +1,4 @@
-/* const express = require("express");
+const express = require("express");
 const dbConnection = require('./Server/database');
 const user = require('./routes/user');
 const bodyParser = require('body-parser')
@@ -42,10 +42,9 @@ if (process.env.NODE_ENV === "production") {
 app.use('/user', user)
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/userdb");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:3000/userdb");
 
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
-*/

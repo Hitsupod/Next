@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from 'react-bootstrap/Button'
 import Ghost from "../../../images/Ghost_of_Tsushima.jpg";
 import Spider from "../../../images/Spiderman.jpg";
-import Death from "../../../images/death.png";
+import Death from "../../../images/death.jpg";
 //import { Link } from "react-router-dom";
 class PlayStationSoloRPGOutPut extends Component {
   render() {

@@ -1,12 +1,30 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import styled, { css } from 'styled-components'
 // import Signup from "./Sign-Up";
 // import Login from "./login";
 
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid green;
+  color: lime;
+  padding: 3px;
+
+  ${props => props.primary && css`
+    background: green;
+    color: white;
+  `}
+`;
+
+const Container = styled.div`
+  text-align: center;
+`
+
 
 class Navigation extends Component {
-
+    
     render() {
         return(
             <div>
@@ -15,10 +33,10 @@ class Navigation extends Component {
                         <h2 className="Homebtn">Next</h2>
                     </Navbar.Brand>
                     <Nav>
-                        <Nav.Link href="/Recommendation" className="navbtns">Recommendation</Nav.Link>
-                        <Nav.Link href="/Saved" className="navbtns">Saved</Nav.Link>
-                        <Nav.Link href="/Login" className="navbtns">Login</Nav.Link>
-                        <Nav.Link href="/Signup" className="navbtns">Sign Up</Nav.Link>
+                        <Button><Nav.Link href="/Recommendation" className="navbtns">Recommendation</Nav.Link></Button>
+                        <Button><Nav.Link href="/Saved" className="navbtns">Saved</Nav.Link></Button>
+                        <Button><Nav.Link href="/Login" className="navbtns">Login</Nav.Link></Button>
+                        <Button><Nav.Link href="/Signup" className="navbtns">Sign Up</Nav.Link></Button>
                     </Nav>
                 </Navbar>
             </div>

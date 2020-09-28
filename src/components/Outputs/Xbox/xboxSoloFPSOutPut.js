@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from 'react-bootstrap/Button'
 import Wolf from "../../../images/wolf.jpg";
+import Exo from "../../../images/exomecha.jpg";
 //import { Link } from "react-router-dom";
 class xboxSoloFPSOutPut extends Component {
   render() {
@@ -34,7 +35,7 @@ class xboxSoloFPSOutPut extends Component {
                   back in 2010, and this Redux version benefits massively from overhauled AI, gameplay mechanics and visuals. 
                   In terms of first-person shooters or survival horror games on Nintendo's console, this is one of the very best.
                 </Card.Text>
-                <Button href="#">Amazon</Button> <Button type="submit">Save</Button>{' '}
+                <Button href="https://www.exomecha.com/">Sign up</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -48,7 +49,7 @@ class xboxSoloFPSOutPut extends Component {
               <Card.Body>
                 <Card.Img variant="top" src={Wolf} />
                 <Card.Title className="questions">
-                Wolfenstein II: The New Colossus
+                Second Extinction
                 </Card.Title>
                 <Card.Text className="questions">
                 Wolfenstein II: The New Colossus is the best narrative single-player FPS experience you can have on Switch right now. 
@@ -56,6 +57,7 @@ class xboxSoloFPSOutPut extends Component {
                 brilliantly-written story and intense action, this stands alongside DOOM as a blistering FPS campaign that feels close
                 to 'magical' when played on Switch hardware. B.J.’s war against the Third Reich is one you definitely won't want to miss.
                 </Card.Text>
+                <Button href="https://www.xbox.com/en-US/games/second-extinction">Pre Order</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
@@ -68,15 +70,16 @@ class xboxSoloFPSOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
-                <Card.Title className="questions">The Witcher3</Card.Title>
+                <Card.Img variant="top" src={Exo} />
+                <Card.Title className="questions">ExoMecha</Card.Title>
                 <Card.Text className="questions">
-                  The Witcher® 3: Wild Hunt is a story-driven, next-generation
-                  open world role-playing game, set in a visually stunning
-                  fantasy universe, full of meaningful choices and impactful
-                  consequences. You play as Geralt of Rivia, a monster hunter
-                  tasked with finding a child from an ancient prophecy.
+                ExoMecha is a free-to-play online competitive first-person shooter that 
+                takes place on a planet called Omecha. Our game provides players an immersive 
+                experience with its high-quality visuals, flexible gameplay, giant mechs, 
+                unique gadgets and abilities, and boss battles. Our unique gameplay brings 
+                limitless possibilities on how you engage in the combat.
                 </Card.Text>
+                <Button href="https://www.exomecha.com/">Sign up</Button> <Button type="submit">Save</Button>{' '}
               </Card.Body>
             </Card>
           </Col>
