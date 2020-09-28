@@ -7,7 +7,7 @@ const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 const passport = require('./passport');
 const app = express()
-const PORT = 8080
+const PORT = 3000
 
 // Sessions
 app.use(
