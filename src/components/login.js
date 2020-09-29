@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import axios from 'axios'
+import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 
 class Login extends Component {
     constructor() {
@@ -57,6 +58,13 @@ class Login extends Component {
         } else {
             return (
                 <div>
+                    <Card
+                    className="questionsCard"
+                    bg="dark"
+                    text="white"
+                    style={{ width: "65rem" }}
+                    >
+                    <Card.Body>
                     <h4>Login</h4>
                     <form className="form-horizontal">
                         <div className="form-group">
@@ -97,6 +105,8 @@ class Login extends Component {
                                 type="submit">Login</button>
                         </div>
                     </form>
+                    </Card.Body>
+                    </Card>
                 </div>
             )
         }
