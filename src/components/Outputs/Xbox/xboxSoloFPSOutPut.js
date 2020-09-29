@@ -3,6 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Wolf from "../../../images/wolf.jpg";
 import Exo from "../../../images/exomecha.jpg";
+import metro from "../../../images/Metro.jpg";
 //import { Link } from "react-router-dom";
 class xboxSoloFPSOutPut extends Component {
   render() {
@@ -16,7 +17,7 @@ class xboxSoloFPSOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -24,8 +25,8 @@ class xboxSoloFPSOutPut extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Img variant="top" src={Wolf} />
-                <Card.Title className="questions">Halo Infinite</Card.Title>
+                <Card.Img variant="top" src={metro} />
+                <Card.Title className="questions">Metro 2033</Card.Title>
                 <Card.Text className="questions">
                   {" "}
                   Metro 2033 Redux is a top-class first-person shooter/survival
@@ -37,12 +38,14 @@ class xboxSoloFPSOutPut extends Component {
                   first-person shooters or survival horror games on Nintendo's
                   console, this is one of the very best.
                 </Card.Text>
-                <Button href="https://www.exomecha.com/">Sign up</Button>{" "}
+                <Button href="https://www.amazon.com/Metro-Redux-Xbox-One-Deep-Silver/dp/B00KLRX0XQ/ref=sr_1_1?crid=3GGYD4D4SOFSW&dchild=1&keywords=metro+2033+xbox+one&qid=1601344778&sprefix=metro+2033+xbo%2Caps%2C176&sr=8-1">
+                  Amazon
+                </Button>{" "}
                 <Button type="submit">Save</Button>{" "}
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -51,7 +54,9 @@ class xboxSoloFPSOutPut extends Component {
             >
               <Card.Body>
                 <Card.Img variant="top" src={Wolf} />
-                <Card.Title className="questions">Second Extinction</Card.Title>
+                <Card.Title className="questions">
+                  Wolfenstein II: The New Colossus
+                </Card.Title>
                 <Card.Text className="questions">
                   Wolfenstein II: The New Colossus is the best narrative
                   single-player FPS experience you can have on Switch right now.
@@ -71,7 +76,7 @@ class xboxSoloFPSOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
