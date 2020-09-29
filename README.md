@@ -9,9 +9,7 @@ E - Express
 r - React
 N - Nodejs
 
-## Contributing
-## Authors
-
+## Contributing Authors
 Reggie Littleton
 
 Michael Jaeschke
