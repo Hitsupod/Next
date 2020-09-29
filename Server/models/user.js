@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+/* const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const bcrypt = require('bcryptjs');
 mongoose.promise = Promise
@@ -31,4 +31,4 @@ userSchema.pre('save', function (next) {
 	}
 })
 
-const User = mongoose.model('User', userSchema)
+const User = mongoose.model('User', userSchema) */

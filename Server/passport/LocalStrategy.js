@@ -1,4 +1,4 @@
-const User = require('../models/user')
+/* const User = require('../models/user')
 const LocalStrategy = require('passport-local').Strategy
 
 const strategy = new LocalStrategy(
@@ -21,4 +21,4 @@ const strategy = new LocalStrategy(
 	}
 )
 
-module.exports = strategy
+module.exports = strategy*/
