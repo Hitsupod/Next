@@ -3,7 +3,6 @@ import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 
 //import { Link } from "react-router-dom";
 
-
 class XboxSquadQ3 extends Component {
   render() {
     return (
@@ -18,7 +17,7 @@ class XboxSquadQ3 extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                Choose a Genre?
+                  Choose a Genre?
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>

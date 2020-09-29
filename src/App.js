@@ -1,8 +1,7 @@
 import React from "react";
-import "./App.css"
+import "./App.css";
 import Main from "./components/Main";
-import Navigation from "./components/Navigation"
-
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
@@ -12,7 +11,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;

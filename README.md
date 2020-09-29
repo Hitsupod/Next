@@ -16,7 +16,3 @@ Michael Jaeschke
 
 ## License
 
-## Acknowledgments
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

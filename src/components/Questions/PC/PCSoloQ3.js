@@ -20,7 +20,7 @@ class PCSoloQ3 extends Component {
             >
               <Card.Body>
                 <Card.Title className="systemQuestions">
-                Choose a Genre?
+                  Choose a Genre?
                 </Card.Title>
                 <Card.Text className="questions">
                   <ListGroup>

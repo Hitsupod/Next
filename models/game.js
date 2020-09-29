@@ -6,6 +6,7 @@ const gameSchema = new Schema({
   system: { type: String, required: true },
   description: { type: String, required: true },
   synopsis: String,
+  date: { type: Date, default: Date.now },
 });
 
 const Game = mongoose.model("Game", gameSchema);

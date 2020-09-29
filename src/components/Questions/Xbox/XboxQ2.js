@@ -3,7 +3,6 @@ import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 
 //import { Link } from "react-router-dom";
 
-
 class XboxQ2 extends Component {
   render() {
     return (
