@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Destiny from "../../../images/destiny.jpg";
 import Valorant from "../../../images/Valorant.png";
 import Division from "../../../images/division.jpg";
-//import { Link } from "react-router-dom";
+
 class PCSquadFPSOutPut extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class PCSquadFPSOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -45,7 +45,7 @@ class PCSquadFPSOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -69,7 +69,7 @@ class PCSquadFPSOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"

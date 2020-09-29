@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Apex from "../../../images/apex.png";
 import COD from "../../../images/cod.png";
 import B3 from "../../../images/B3.jpg";
-//import { Link } from "react-router-dom";
+
 class PCSoloFPSOutPut extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class PCSoloFPSOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -40,7 +40,7 @@ class PCSoloFPSOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -65,7 +65,7 @@ class PCSoloFPSOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"

@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Zelda from "../../../images/zelda.jpg";
 import Hollow from "../../../images/HollowKnight.jpg";
 import Fire from "../../../images/3houses.jpg";
-//import { Link } from "react-router-dom";
+
 class NintendoSoloRPGOutPut extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class NintendoSoloRPGOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -46,7 +46,7 @@ class NintendoSoloRPGOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -70,7 +70,7 @@ class NintendoSoloRPGOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"

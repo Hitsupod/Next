@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import MHGU from "../../../images/mhgu.jpg";
 import AC from "../../../images/AC.jpg";
 import Pokemon from "../../../images/pokemon.jpg";
-//import { Link } from "react-router-dom";
+
 class NintendoSquadRPGOutPut extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class NintendoSquadRPGOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -51,7 +51,7 @@ class NintendoSquadRPGOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -82,7 +82,7 @@ class NintendoSquadRPGOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"

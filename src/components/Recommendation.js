@@ -1,16 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-//import { List, ListItem } from "../components/List";
-//import API from "../utils/API";
+
 import valorant from "../images/Valorant.png";
 import minecraft from "../images/minecraft.jpg";
 import spiderman from "../images/Spiderman.jpg";
 import zelda from "../images/zelda.jpg";
 import ori from "../images/ori.jpg";
-//import rdr from "../images/rdr2.png";
-//import mgs from "../images/mgs.png";
-//import witcher from "../images/witcher3.png";
-//import apex from "../images/apex.png";
 
 function Recomendation() {
   return (

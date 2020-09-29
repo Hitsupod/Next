@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Wolf from "../../../images/wolf.jpg";
 import Metro from "../../../images/Metro.jpg";
 import Rico from "../../../images/rico.jpg";
-//import { Link } from "react-router-dom";
+
 class NintendoSoloFPSOutPut extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class NintendoSoloFPSOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -45,7 +45,7 @@ class NintendoSoloFPSOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -76,12 +76,12 @@ class NintendoSoloFPSOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
               text="white"
-              style={{ width: "65rem" }}
+              style={{ width: "18rem" }}
             >
               <Card.Body>
                 <Card.Img variant="top" src={Rico} />

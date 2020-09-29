@@ -9,7 +9,7 @@ const MongoStore = require("connect-mongo")(session);
 const passport = require("./Server/passport");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 
 // Sessions
 app.use(
@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === "production") {
 app.use("/user", user);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:3000/userdb");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/gamelist");
 
 // Start the API server
 app.listen(PORT, function () {

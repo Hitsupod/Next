@@ -5,7 +5,6 @@ import Splatoon from "../../../images/splatoon.png";
 import Fortnite from "../../../images/fortnite.jpg";
 import Overwatch from "../../../images/overwatch.jpg";
 
-//import { Link } from "react-router-dom";
 class NintendoSquadFPSOutPut extends Component {
   render() {
     return (
@@ -18,7 +17,7 @@ class NintendoSquadFPSOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -44,7 +43,7 @@ class NintendoSquadFPSOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -74,7 +73,7 @@ class NintendoSquadFPSOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"

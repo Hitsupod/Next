@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
-// import Signup from "./Sign-Up";
-// import Login from "./login";
 
 const Button = styled.button`
   background: transparent;
@@ -18,10 +15,6 @@ const Button = styled.button`
       background: green;
       color: white;
     `}
-`;
-
-const Container = styled.div`
-  text-align: center;
 `;
 
 class Navigation extends Component {

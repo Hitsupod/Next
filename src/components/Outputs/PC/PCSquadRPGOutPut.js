@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import MHW from "../../../images/MHW.jpg";
 import WOW from "../../../images/wow.jpg";
 import Mine from "../../../images/minecraft.jpg";
-//import { Link } from "react-router-dom";
+
 class PCSquadRPGOutPut extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class PCSquadRPGOutPut extends Component {
           </Col>
         </Row>
         <Row className="output">
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -45,7 +45,7 @@ class PCSquadRPGOutPut extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
@@ -69,7 +69,7 @@ class PCSquadRPGOutPut extends Component {
             </Card>
           </Col>
 
-          <Col md="auto">
+          <Col md="4">
             <Card
               className="questions"
               bg="dark"
