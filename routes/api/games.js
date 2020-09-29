@@ -1,9 +1,8 @@
 const router = require("express").Router();
 const gamesController = require("../../controllers/gameControllers");
-
+let Games = require("../../models/game");
 
 router.route("/").get(gamesController.findAll).post(gamesController.create);
-
 
 router
   .route("/:id")

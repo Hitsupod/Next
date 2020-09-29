@@ -8,6 +8,7 @@ const Button = styled.button`
   border: 2px solid green;
   color: lime;
   padding: 3px;
+
   ${(props) =>
     props.primary &&
     css`

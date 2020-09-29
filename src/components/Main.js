@@ -1,7 +1,8 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import Questions from "./Questions";
+import Recomendation from "./Recommendation";
 import PlaystationQ2 from "./Questions/Playstation/PlaystationQ2";
 import PlaystationSoloQ3 from "./Questions/Playstation/PlaystationSoloQ3";
 import PlaystationSquadQ3 from "./Questions/Playstation/PlaystationSquadQ3";
@@ -33,18 +34,18 @@ import PCSquadRPGOutPut from "./Outputs/PC/PCSquadRPGOutPut";
 import Signup from "./Sign-Up";
 import Login from "./login";
 import Saved from "./Saved";
-
-
-
-
-
+//<Route exact path="/Saved" component={Saved} />
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
     <Route exact path="/Questions" component={Questions} />
     <Route exact path="/Signup" component={Signup} />
     <Route exact path="/Login" component={Login} />
-    <Route exact path="/Saved" component={Saved} />
+
+    <Route exact path={["/Saved", "/games/"]}>
+      <Saved />
+    </Route>
+    <Route exact path="/Recommendation" component={Recomendation} />
     {/* // Playstation Questions  */}
     <Route exact path="/PlaystationQ2" component={PlaystationQ2} />
     <Route exact path="/PlaystationSoloQ3" component={PlaystationSoloQ3} />
@@ -64,33 +65,64 @@ const Main = () => (
     <Route exact path="/PCQ2" component={PCQ2} />
     <Route exact path="/PCSoloQ3" component={PCSoloQ3} />
     <Route exact path="/PCSquadQ3" component={PCSquadQ3} />
-    
-    {/* // Nintendo Outputs */}
-    <Route exact path="/NintendoSoloFPSOutPut" component={NintendoSoloFPSOutPut} />
-    <Route exact path="/NintendoSoloRPGOutPut" component={NintendoSoloRPGOutPut} />
-    <Route exact path="/NintendoSquadFPSOutPut" component={NintendoSquadFPSOutPut} />
-    <Route exact path="/NintendoSquadRPGOutPut" component={NintendoSquadRPGOutPut} />
 
-     {/* PC Outputs  */}
+    {/* // Nintendo Outputs */}
+    <Route
+      exact
+      path="/NintendoSoloFPSOutPut"
+      component={NintendoSoloFPSOutPut}
+    />
+    <Route
+      exact
+      path="/NintendoSoloRPGOutPut"
+      component={NintendoSoloRPGOutPut}
+    />
+    <Route
+      exact
+      path="/NintendoSquadFPSOutPut"
+      component={NintendoSquadFPSOutPut}
+    />
+    <Route
+      exact
+      path="/NintendoSquadRPGOutPut"
+      component={NintendoSquadRPGOutPut}
+    />
+
+    {/* PC Outputs  */}
     <Route exact path="/PCSoloFPSOutPut" component={PCSoloFPSOutPut} />
     <Route exact path="/PCSoloRPGOutPut" component={PCSoloRPGOutPut} />
     <Route exact path="/PCSquadFPSOutPut" component={PCSquadFPSOutPut} />
     <Route exact path="/PCSquadRPGOutPut" component={PCSquadRPGOutPut} />
 
     {/*  PlayStation Outputs */}
-    <Route exact path="/PlayStationSoloFPSOutPut" component={PlayStationSoloFPSOutPut} />
-    <Route exact path="/PlayStationSoloRPGOutPut" component={PlayStationSoloRPGOutPut} />
-    <Route exact path="/PlayStationSquadFPSOutPut" component={PlayStationSquadFPSOutPut} />
-    <Route exact path="/PlayStationSquadRPGOutPut" component={PlayStationSquadRPGOutPut} />
+    <Route
+      exact
+      path="/PlayStationSoloFPSOutPut"
+      component={PlayStationSoloFPSOutPut}
+    />
+    <Route
+      exact
+      path="/PlayStationSoloRPGOutPut"
+      component={PlayStationSoloRPGOutPut}
+    />
+    <Route
+      exact
+      path="/PlayStationSquadFPSOutPut"
+      component={PlayStationSquadFPSOutPut}
+    />
+    <Route
+      exact
+      path="/PlayStationSquadRPGOutPut"
+      component={PlayStationSquadRPGOutPut}
+    />
 
     {/*  Xbox Outputs */}
     <Route exact path="/xboxSoloFPSOutPut" component={xboxSoloFPSOutPut} />
     <Route exact path="/xboxSoloRPGOutPut" component={xboxSoloRPGOutPut} />
     <Route exact path="/xboxSquadFPSOutPut" component={xboxSquadFPSOutPut} />
     <Route exact path="/xboxSquadRPGOutPut" component={xboxSquadRPGOutPut} />
-
-
-
   </Switch>
 );
 export default Main;
+//component={OutPut}
+//<Route exact path="/Results" component={Results} />
